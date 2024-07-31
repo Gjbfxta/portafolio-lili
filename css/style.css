@@ -1,3 +1,94 @@
-html{
-   font-family: "Overlock SC";
-}
+/* Header */
+
+.header {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+ }
+ 
+ .header-wrapper {
+   padding: 12px;
+   width: 100%;
+   max-width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .header-brand{}
+ 
+ .header-nav{
+   display: flex;
+   gap: 24px;
+ }
+ 
+ .header-nav-item:hover{
+   color: var(--blanco);
+   padding: 12px 8px;
+   
+ }
+ 
+ .header-nav-buttom{
+   background-color: var(--aquamarine);
+   font-weight: 900;
+   color: var(--blanco);
+   border-radius: 12px;
+   padding: 12px 24px;
+   background-color: var(--aquamarine);
+ }
+ 
+ .header-nav-buttom:hover {
+   background-color: var(--light-seagreen);
+   color: var(--negro);
+ }
+ 
+ 
+ .hero {
+   background-color: lightblue;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .hero-wrapper{
+   max-width: 1200px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  background-color: lightcoral;
+ }
+ 
+ .hero-content{
+  background-color: lightgreen;
+  padding: 24px;
+ 
+ }
+ 
+ .hero-title{
+  background-color: lightsalmon;
+  margin-bottom: 24px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  color: var(--aquamarine)
+ }
+ 
+ .hero-paragraph{
+  font-size: 18px;
+  line-height: 24px;
+  color:var(--negro);
+ }
+ 
+ .hero-buttom{
+   width: fit-content;
+  background-color: lightseagreen;
+  color:var(--blanco);
+  font-weight: 900;
+  padding: 12px 24px;
+  border-radius: 12px;
+ 
+ }
+ 
+ .hero-buttom:hover{
+   background-color:var(--dark-aquamarine);
+   color:var(--blanco);
+ }
