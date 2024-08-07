@@ -11,7 +11,7 @@
 
     */
 
-/
+
 /* Aquí definimos las Custom properties */
 :root {
     --aquamarine: #20A1AA;
@@ -150,7 +150,7 @@ svg {
     display: inline;
 }
 
-/* (Probándolo, no usar en producción) En el caso de añadir una  */
+/* (Probandolo, no usar en producción) En el caso de añadir una  */
 /* p svg{
     display: inline;
     width: initial;
@@ -161,7 +161,7 @@ body {
     font-size: 100%;
     font-family: var(--tipo-principal);
     color: var(--negro);
-    background-color: var(--light-seagreen);
+    background-color: var(--aquamarine);
     /* opcional */
     line-height: 1.4em;
     /* opcional */

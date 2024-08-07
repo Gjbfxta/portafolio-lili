@@ -60,7 +60,9 @@
  .hero-content{
   background-color: lightgreen;
   padding: 24px;
- 
+ flex-direction: column;
+ justify-content: center;
+ background-color: lightblue;
  }
  
  .hero-title{
@@ -91,4 +93,12 @@
  .hero-buttom:hover{
    background-color:var(--dark-aquamarine);
    color:var(--blanco);
+ }
+
+ .hero-image{
+  background-color: var(--morado);
+  border-radius: 50%;
+ }
+ hero-logo{
+  
  }
