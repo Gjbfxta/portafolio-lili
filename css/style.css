@@ -15,36 +15,41 @@
    align-items: center;
  }
  
- .header-brand{}
+ .header-brand{
+  width: 40px;
+ }
  
  .header-nav{
    display: flex;
    gap: 24px;
  }
  
- .header-nav-item:hover{
-   color: var(--blanco);
+ .header-nav-item{
+   color: var(--negro);
    padding: 12px 8px;
    
  }
+ .header-nav-item:hover{
+  color: var(--morado);
+ }
  
  .header-nav-buttom{
-   background-color: var(--aquamarine);
+   background-color: var(--morado);
    font-weight: 900;
    color: var(--blanco);
    border-radius: 12px;
    padding: 12px 24px;
-   background-color: var(--aquamarine);
+   background-color: var(--light-seagreen);
  }
  
  .header-nav-buttom:hover {
    background-color: var(--light-seagreen);
-   color: var(--negro);
+   
  }
  
+ /* hero */
  
  .hero {
-   background-color: lightblue;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -54,51 +59,51 @@
    max-width: 1200px;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-  background-color: lightcoral;
  }
  
  .hero-content{
-  background-color: lightgreen;
   padding: 24px;
- flex-direction: column;
- justify-content: center;
- background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
  }
  
  .hero-title{
-  background-color: lightsalmon;
   margin-bottom: 24px;
   font-size: 64px;
   font-weight: 900;
   line-height: 64px;
-  color: var(--aquamarine)
+  color: var(--morado)
  }
  
  .hero-paragraph{
-  font-size: 18px;
+  font-size: 22px;
   line-height: 24px;
   color:var(--negro);
+  margin-bottom: 24px;
+  hyphens: none;
  }
  
  .hero-buttom{
-   width: fit-content;
-  background-color: lightseagreen;
+  font-size: 28px;
+  width: fit-content;
   color:var(--blanco);
   font-weight: 900;
-  padding: 12px 24px;
+  padding: 16px 24px;
   border-radius: 12px;
+  background-color: #9F2A2A;
  
  }
  
  .hero-buttom:hover{
    background-color:var(--dark-aquamarine);
-   color:var(--blanco);
  }
-
+ .hero-profile{
+  /* display: flex; */ 
+  justify-content: center;
+  padding: 24px;
+} 
  .hero-image{
-  background-color: var(--morado);
-  border-radius: 50%;
- }
- hero-logo{
-  
+  width: 80%; 
+	border-radius: 50%;
  }

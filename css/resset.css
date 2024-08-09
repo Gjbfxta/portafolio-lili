@@ -14,21 +14,22 @@
 
 /* Aquí definimos las Custom properties */
 :root {
-    --aquamarine: #20A1AA;
-    --light-seagreen: #98EFF5;
-    --dark-aquamarine: #10656B;
+    --aquamarine: #F97272;
+    --light-seagreen: #9F2A2A;
+    --dark-aquamarine: #F97272;
     --blanco: #FFFFFF;
-    --negro: #000000;
+    --negro: #441515;
     /* Tipografía */
-    --tipo-principal: "montserrat", sans-serif;
+    --tipo-principal: "Overlock SC", sans-serif;
+	     --tipo-secundaria: "Patua One", sans-serif;
 }
 
 /* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
-        --negro: #000000;
+        --negro: #441515;
     }
-}
+} */
 
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
@@ -54,11 +55,7 @@
 }
 
 /* Evitamos problemas con las imagenes */
-img,
-picture,
-video,
-iframe,
-figure {
+img, picture, video, iframe, figure {
     max-width: 100%;
     width: 100%;
     display: block;
@@ -74,7 +71,7 @@ figure {
 a {
     display: block;
     text-decoration: none;
-    color: inherit;
+    color:  inherit;
     font-size: inherit;
 }
 
@@ -159,9 +156,10 @@ svg {
 body {
     min-height: 100vh;
     font-size: 100%;
+    color: inherit;
     font-family: var(--tipo-principal);
-    color: var(--negro);
-    background-color: var(--aquamarine);
+    color: #EC5151;
+    background-color: #fffdee;
     /* opcional */
     line-height: 1.4em;
     /* opcional */
