@@ -1,109 +1,190 @@
 /* Header */
 
 .header {
-   display: flex;
-   justify-content: center;
-   width: 100%;
- }
- 
- .header-wrapper {
-   padding: 12px;
-   width: 100%;
-   max-width: 1200px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- 
- .header-brand{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-wrapper {
+  padding: 12px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
   width: 40px;
- }
- 
- .header-nav{
-   display: flex;
-   gap: 24px;
- }
- 
- .header-nav-item{
-   color: var(--negro);
-   padding: 12px 8px;
-   
- }
- .header-nav-item:hover{
+}
+
+.header-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.header-nav-item {
+  color: var(--negro);
+  padding: 12px 8px;
+
+}
+
+.header-nav-item:hover {
   color: var(--morado);
- }
- 
- .header-nav-buttom{
-   background-color: var(--morado);
-   font-weight: 900;
-   color: var(--blanco);
-   border-radius: 12px;
-   padding: 12px 24px;
-   background-color: var(--light-seagreen);
- }
- 
- .header-nav-buttom:hover {
-   background-color: var(--light-seagreen);
-   
- }
- 
- /* hero */
- 
- .hero {
-   width: 100%;
-   display: flex;
-   justify-content: center;
- }
- 
- .hero-wrapper{
-   max-width: 1200px;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
- }
- 
- .hero-content{
+}
+
+.header-nav-buttom {
+  background-color: var(--morado);
+  font-weight: 900;
+  color: var(--blanco);
+  border-radius: 12px;
+  padding: 12px 24px;
+  background-color: var(--light-seagreen);
+}
+
+.header-nav-buttom:hover {
+  background-color: var(--light-seagreen);
+
+}
+
+/* hero */
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content {
   padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
- }
- 
- .hero-title{
+}
+
+.hero-title {
   margin-bottom: 24px;
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 900;
   line-height: 64px;
   color: var(--morado)
- }
- 
- .hero-paragraph{
-  font-size: 22px;
-  line-height: 24px;
-  color:var(--negro);
+}
+
+.hero-paragraph {
+  font-size: 20px;
+  line-height: auto;
+  color: var(--negro);
   margin-bottom: 24px;
   hyphens: none;
- }
- 
- .hero-buttom{
+  color: #9f2a2a;
+}
+
+.hero-buttom {
   font-size: 28px;
   width: fit-content;
-  color:var(--blanco);
+  color: var(--blanco);
   font-weight: 900;
   padding: 16px 24px;
   border-radius: 12px;
-  background-color: #9F2A2A;
- 
- }
- 
- .hero-buttom:hover{
-   background-color:var(--dark-aquamarine);
- }
- .hero-profile{
-  /* display: flex; */ 
+  background-color: #9f2a2a;
+
+}
+
+.hero-buttom:hover {
+  background-color: var(--dark-aquamarine);
+}
+
+.hero-profile {
+  /* display: flex; */
   justify-content: center;
   padding: 24px;
-} 
- .hero-image{
-  width: 80%; 
-	border-radius: 50%;
- }
+}
+
+.hero-image {
+  width: 90%;
+  border-radius: 50%;
+}
+
+
+/* Main */
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-wrapper {
+  width: 100%;
+  max-width: 1200px;
+
+}
+
+.service {
+  padding: 24px;
+  color: #9f2a2a;
+}
+
+.service-content {
+  max-width: 1200px;
+  margin-bottom: 24px;
+
+}
+
+.service-title {
+  font-size: 48px;
+  color: var(--turquesa);
+  font-weight: 900;
+  margin-bottom: 24px;
+  color: #be4747;
+}
+
+.service.paragraph {
+  font-size: 20px;
+  color: var(--negro);
+  line-height: 25px;
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+}
+
+.service-item {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #fffdee;
+  border: 2px solid #EC5151;
+}
+
+.service-image {
+  align-self: center;
+  max-width: 100px;
+}
+
+.service-subtitle {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--turquesa);
+  color: #EC5151
+}
+
+.service-descrption {
+  font-size: 18px;
+  line-height: auto  px;
+
+}
